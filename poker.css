@@ -1,0 +1,33 @@
+body {
+	background-image: url(background.png);
+	background-size: cover;
+	padding: 100px;
+}
+
+.title {
+	color: #fff;
+	margin: auto;
+}
+
+#top-wrapper {
+	display: flex;
+	flex-direction: row;
+	gap: 200px;
+}
+
+#mazzo-wrapper {
+	width: fit-content;
+	display: flex;
+	flex-direction: column;
+}
+
+.card {
+	width: 100px;
+	height: 140px;
+}
+
+#table-cards-wrapper {
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+}
