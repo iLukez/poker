@@ -4,6 +4,12 @@ body {
 	padding: 100px;
 }
 
+#game-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
 .title {
 	color: #fff;
 	margin: auto;
@@ -29,5 +35,21 @@ body {
 #table-cards-wrapper {
 	display: flex;
 	flex-direction: row;
+	gap: 5px;
+}
+
+/* bottom */
+
+#bottom-wrapper {
+	display: flex;
+	flex-direction: row;
+	gap: 100px;
+}
+
+.player-wrapper,
+#mazzo-wrapper,
+#table-wrapper {
+	display: flex;
+	flex-direction: column;
 	gap: 5px;
 }
